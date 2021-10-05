@@ -1,0 +1,136 @@
+/* Reseteador de estilo*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*Aqui comienza el estilo*/
+body {
+    margin: 10px 15px;
+    color: whitesmoke;
+}
+body {
+    background-image: url(https://i.blogs.es/71e3ca/apps-con-modo-oscuro/1366_2000.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    margin: 10px;
+}
+.top-img-image-onload {
+    width: 250px;
+    height: 250px;
+    box-sizing: border-box;
+    background-clip: content-box;
+    border-radius: 49.9%;
+    float: left;
+}
+.title {
+    margin: 10px;
+    font-size: 2em;
+}   
+main {
+    margin: 10px;
+}
+h3 {
+    margin: 2.5px;
+    font-size: 1.25em;
+    text-align: center;
+}
+ul li{
+    list-style: none;
+}
+
+.align-center {
+    text-align: center;
+}
+.main-nav {
+    margin: 10px;
+    list-style: none;
+    padding-left: 0;
+    background-color: transparent;
+    text-align: center;
+    font-size: 1.25em;
+}
+.main-nav__item {
+    display: inline-block ;
+}
+.main-nav__item a {
+    color: white;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+.main-nav__item a:hover {
+    color: blue; 
+}
+.main-nav__item a:active {
+    color: red
+}
+.main-nav__item a::after {
+    content: " | ";
+}
+.main-sec__profile{
+    font-size: 1em;
+    text-align: justify;
+}
+h4::before {
+    content: "• ";
+}
+ol li {
+    list-style-type: decimal;
+  }
+  h4 {
+    margin: 2.5px;  
+    font-size: 1.15em;
+    color: yellowgreen;
+}
+#montacargas {
+    float: left;
+}
+#andina {
+    float: right;
+}
+.footer-form {
+    color: blue;
+    font-size: 1.25em;
+}

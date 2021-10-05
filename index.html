@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Marcos Ortíz">
+    <meta name="description" content="Training Web HTML5">
+    <meta name="description" content="Esta página te mostrará información personal" />
+    <meta name="robots" content="index,follow" />
+    <title>Curriculum Marcos Ortíz</title>
+    <link rel="shorcut icon" href="./src/images/favicon_html.png">
+    <link rel="stylesheet" href="./css/style.css" />
+
+</head>
+
+<body>
+    <header>
+        <img class="top-img-image-onload" src="./src/images/foto_perfil.jpg" alt="Marcos Ortiz">
+        <div class="align-center">
+            <h1 class="title">Marcos Ortiz</h1>
+        </div>
+
+        <br><br>
+        <nav>
+            <ul class="main-nav">
+                <li class="main-nav__item"><a href="#contacto">Datos de Contacto</a></li>
+                <li class="main-nav__item"><a href="#conocimiento">Habilidades y Conocimientos</a></li>
+                <li class="main-nav__item"><a href="#experiencia">Experiencia Laboral</a></li>
+                <li class="main-nav__item"><a href="#formacion">Formación Académica</a></li>
+                <li class="main-nav__item"><a href="#portafolio">Portafolio</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+
+            <article>
+                <br>
+                <h3>Perfil Profesional</h3>
+                <p class="main-sec__profile">
+                    Administrador de Empresas con nivel de Inglés B2. Conocimientos administrativos y de programación,
+                    experiencia y dominio avanzado en Excel, VB y Power BI junto con manejo intermedio en lenguaje SQL.
+                    Estudio constante y manejo de ingles, con capacidad de entender, comprender, analizar y facilidad de
+                    expresión. Compromiso al realizar labores asignadas. Competencias desarrolladas como la
+                    automotivación y comunicación asertiva que permiten mostrar habilidades de trabajo en grupo e
+                    individual junto con adaptabilidad al cambio.
+                    Apasionado por el cumplimiento de objetivos, aprendizaje continuo y nuevos retos. Habilidad en
+                    pensamiento estratégico y toma de decisiones.
+                </p>
+            </article>
+        </section>
+        <section>
+            <br><br><br>
+            <article id="contacto">
+                <h4>Datos de Contacto</h4>
+                <ul>
+                    <li>
+                        <a href="https://api.whatsapp.com/send?phone=+573016887137">📱 Contactarme por whatsapp</a>
+                    </li>
+                    <li>
+                        <a href="mailto:marcosgop18@gmail.com">✉ Contactarme por email</a>
+                    </li>
+                </ul>
+            </article>
+            <article id="conocimiento">
+                <h4>Habilidades y Conocimientos</h4>
+                <ol>
+                    <li>Automatización de procesos</li>
+                    <li>Dashboards e Indicadores</li>
+                    <li>Liderazgo de equipos</li>
+                    <li>Inglés(Nivel B2)</li>
+                    <li>Excel Avanzado</li>
+                    <li>Bases de Datos</li>
+                    <li>Power Query</li>
+                    <li>Power Pivot</li>
+                    <li>SQL Server</li>
+                    <li>Power BI</li>
+                    <li>Scrum</li>
+                    <li>CRM</li>
+                </ol>
+            </article>
+            <article id="experiencia">
+                <h4>Experiencia Laboral</h4>
+                <ol>
+                    <li>Teleperformance | Mission Controller - 2020</li>
+                    <li>Bioenergy Ecologyc | Administrador Comercial | 2019 - 2020</li>
+                    <li>Teleperformance | Supervisor | 2018 - 2019 </li>
+                    <li>Konecta | Asesor Comercial | 2016 - 2018 </li>
+                </ol>
+            </article>
+            <article id="formacion">
+                <h4>Formación Académica</h4>
+                <ol>
+                    <li>Universidad de Antioquia | Ingeniería en Sistemas - 2020 (En curso)</li>
+                    <li> Udemy | Phyton - 2019</li>
+                    <li> Cet |Diplomado SQL Server - 2018</li>
+                    <li>Universidad del Area Andina | Administración de Empresas - 2016</li>
+                </ol>
+            </article>
+            <article id="portafolio">
+                <h4>Portafolio</h4>
+                <p>
+                    Hasta el momento estos son los proyectos que he creado:
+                </p>
+                <ul class="main-sec__item">
+                    <li=#montacargas><a href="https://montacargasbogotabbp.com/index.html"><img
+                            src="https://montacargasbogotabbp.com/images/img_banner1.jpg" height="350" width="350"></a></li>
+                    <li=#andina><a href="http://www.productoraandina.com.co/"><img
+                        src="http://www.productoraandina.com.co/images/logo.png" height="350" width="350"></a></li>
+
+
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <h3 class="footer-form">Pongámonos en contacto!</h3>
+        <form>
+            <label for="name">
+                <span style="color: green;">Cuál es tu nombre?</span>
+                <input required type="text" id="name" name="name" placeholder="Nombre completo"><br><br>
+            </label>
+
+
+            <label for="telefono">
+                <span style="color: green;">Cuál es tu número telefónico</span>
+                <input type="number" id="telefono" name="telefono" placeholder="30088888888"><br><br>
+            </label>
+
+            <label for="email">
+                <span style="color: green;">Cuál es tu e-mail?</span>
+                <input required type="email" id="email" name="email" placeholder="email@example.com"><br><br>
+            </label>
+            <input type="submit" value="Enviar">
+        </form>
+
+    </footer>
+
+</body>
+
+</html>
